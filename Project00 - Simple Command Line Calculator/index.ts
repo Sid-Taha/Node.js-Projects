@@ -3,17 +3,26 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 
-const ans = await inquirer.prompt([
+const ans = await inquirer.prompt(   [
+  
+  
+  
   {
     message: chalk.red.bold("Enter your First number: "),
     type: "number",
     name: "First_number",
   },
+
+
+
+
   {
     message: chalk.red.bold("Enter your Second number: "),
     type: "number",
     name: "Second_number",
   },
+
+  
   {
     message: "Select type of calculation: ",
     type: "list",
