@@ -67,7 +67,8 @@ async function atm_func() {
                 ]);
                 if (Withdraw_ans.amount < current_balance && Withdraw_ans.amount > 0) {
                     console.log(`\nWithdrawn $${Withdraw_ans.amount} from your account.`);
-                    console.log(chalk.hex("#FFA500")(`\n💲 Your Current Balance is: $${current_balance - Withdraw_ans.amount}\n`));
+                    current_balance = current_balance - Withdraw_ans.amount;
+                    console.log(chalk.hex("#FFA500")(`\n💲 Your Current Balance is: $${current_balance}\n`));
                 }
                 else {
                     console.log(chalk.red.bold(`\n\t⚠️ Insufficient balance or Invalid Amount.`));
@@ -94,15 +95,18 @@ async function atm_func() {
                 if (current_balance >= 100) {
                     if (fast_cash.options === "- Withdraw: $100") {
                         console.log(`\nWithdrawn $100 from your account.`);
-                        console.log(chalk.hex("#FFA500")(`\n💲 Your Current Balance is: $${current_balance - 100}\n`));
+                        current_balance = current_balance - 100;
+                        console.log(chalk.hex("#FFA500")(`\n💲 Your Current Balance is: $${current_balance}\n`));
                     }
                     else if (fast_cash.options === "- Withdraw: $500") {
                         console.log(`\nWithdrawn $500 from your account.`);
-                        console.log(chalk.hex("#FFA500")(`\n💲 Your Current Balance is: $${current_balance - 500}\n`));
+                        current_balance = current_balance - 500;
+                        console.log(chalk.hex("#FFA500")(`\n💲 Your Current Balance is: $${current_balance}\n`));
                     }
                     else if (fast_cash.options === "- Withdraw: $1000") {
                         console.log(`\nWithdrawn $1000 from your account.`);
-                        console.log(chalk.hex("#FFA500")(`\n💲 Your Current Balance is: $${current_balance - 1000}\n`));
+                        current_balance = current_balance - 1000;
+                        console.log(chalk.hex("#FFA500")(`\n💲 Your Current Balance is: $${current_balance}\n`));
                     }
                 }
                 else {
