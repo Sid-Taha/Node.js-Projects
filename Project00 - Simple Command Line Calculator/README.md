@@ -1,57 +1,37 @@
-# Simple Command Line Calculator
+# Calculator 🧮
 
-This is a simple CLI calculator to perform basic math calculations between two numbers.
+Welcome to the Calculator! Perform basic arithmetic calculations with this command-line tool.
 
 ## Installation
 
-1. Ensure you have Node.js installed on your computer. If not, download and install it from [Node.js official website](https://nodejs.org/).
-   
-2. Clone or download this repository to your local machine.
+You can install the Calculator via npm:
 
-3. Open your terminal and navigate to the directory where you cloned or downloaded the repository.
-
-4. Run the following command to install the required dependencies:
-
-        npm install
-
+    npm i simple_cli_calculator
 
 ## Usage
+To start using the calculator, run the following command in your terminal:
 
-1. After installing the dependencies, run the calculator using the following command:
+    npx simple_cli_calculator
 
-        node index.js
+Follow the on-screen prompts to perform addition, subtraction, multiplication, or division.
 
+## Features
+- Perform addition, subtraction, multiplication, or division
+- Easy-to-use command-line interface
+- Colorful output for better readability
 
-2. Follow the on-screen prompts to enter your first number, second number, and select the type of calculation you want to perform.
-
-3. Once you've entered the required information, the calculator will display the result of your calculation.
-
-## Instructions
-
-- When prompted, enter your first number and second number.
-- Choose the type of calculation you want to perform from the list of available options.
-- The calculator will display the result of the chosen operation.
-
-## Dependencies
-
-This CLI calculator uses the following npm packages:
-
-- [inquirer](https://www.npmjs.com/package/inquirer): For prompting user input.
-- [chalk](https://www.npmjs.com/package/chalk): For styling the console output.
+## Contributing
+Contributions are welcome! If you have any suggestions, bug reports, or want to contribute new features, feel free to open an issue or submit a pull request.
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## Author
+Taha Ahmed
 
-This CLI calculator was developed by Taha Ahmed Siddiqui.
+## Connect
+My GitHub: [Click me](https://github.com/Sid-Taha)
 
-## Usage
+My LinkedIn: [Click me](https://www.linkedin.com/in/taha-ahmed-siddiqui-245324175/)
 
-To run the calculator without installing it globally, you can use `npx` with the package name from this repository. Simply execute the following command in your terminal:
-
-        npx simple_cli_calculator
-
-
-This will fetch the latest version of the calculator and run it directly in your terminal.
+# Enjoy calculating! 🚀
