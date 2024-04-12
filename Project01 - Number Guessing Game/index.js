@@ -16,5 +16,5 @@ if (userInput.guessedNumber === randomNumber) {
     console.log(chalk.green.bold('\n\tCongratulations! 🎉 You guessed correctly! 😃'));
 }
 else {
-    console.log(chalk.red.bold('\n\tSorry! 💀💀💀 Better luck next time!'));
+    console.log(chalk.red.bold(`\n\tSorry! 💀💀💀 Better luck next time! The correct number was ${randomNumber}.`));
 }
