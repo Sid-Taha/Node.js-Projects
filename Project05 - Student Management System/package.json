@@ -1,6 +1,6 @@
 {
   "name": "student-management-system-by-sid-taha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a Cli Based application",
   "main": "index.js",
   "type": "module",
