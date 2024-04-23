@@ -1,6 +1,6 @@
 {
   "name": "cli_atm_machine_by_sid_taha",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is a CLI atm machine game",
   "main": "index.js",
   "type": "module",

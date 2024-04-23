@@ -1,6 +1,6 @@
 {
   "name": "simple_cli_calculator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a simple command line calculator to perform mathematical calculation between two numbers",
   "main": "index.js",
   "scripts": {
