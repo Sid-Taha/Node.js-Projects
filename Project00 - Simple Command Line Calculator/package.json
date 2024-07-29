@@ -1,0 +1,23 @@
+{
+  "name": "simple_cli_calculator",
+  "version": "1.0.2",
+  "description": "This is a simple command line calculator to perform mathematical calculation between two numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Taha Ahmed Siddiqui",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "simple_cli_calculator": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

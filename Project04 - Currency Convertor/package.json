@@ -1,0 +1,21 @@
+{
+  "name": "currency-convertor-by-sid-taha",
+  "version": "1.0.0",
+  "description": "This Node.js script prompts users to convert currencies, displaying exchange rates and allowing them to continue until they're done.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Taha Ahmed",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.7"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  }
+}
